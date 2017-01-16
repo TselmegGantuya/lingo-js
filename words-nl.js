@@ -1,3 +1,139 @@
+var word = words[Math.flour(Math.random() * words.length)];
+var a = word.charAT(0);
+var b = word.charAT(1);
+var c = word.charAT(2);
+var d = word.charAT(3);
+var e = word.charAT(4);
+var go = 0;
+var f=0;
+var g=5;
+var j=0;
+
+var word = "appel";
+var input = "peren";
+
+word = word.split("");
+input = input.split("");
+
+for (var x = 0; x <= word.length - 1; x++) {
+	for (var y = 0; y <= input.length -1; y++) {
+		if (word[x] == input[y]) {
+			//staat de letter op de juiste plek.
+			break;
+		}
+	}
+}
+
+function Lingo() {
+	this.word = "";
+	this.input = "";
+	
+	this.check = function() {
+			
+	}
+	
+	this.randomWord = function() {
+		
+	}
+	
+	this.quit = function() {
+		
+	}
+}
+
+var lingo = new Lingo();
+
+document.getElementById("t1").value = a; 
+document.getElementById("t6").value = a; 
+document.getElementById("t11").value = a; 
+document.getElementById("t16").value = a; 
+document.getElementById("t21").value = a; 
+var z=6
+var n=0
+function almost(){
+	console.log(almost);
+		for (n < g,n++ ){
+			j++;
+			var x = document.getElementById("t"+g).value;
+			switch(j){
+				case 1:
+				if(x==a){
+					go++
+				}elseif (x==b) {
+					
+				}
+				break;
+				case 2:
+				if(x==b){
+					go++
+				}else{
+					
+				}
+				break;
+				case 3:
+				if(x==c){
+					go++
+				}else{
+					
+				}
+				break;
+				case 4:
+				if(x==d){
+					go++
+				}else{
+					
+				}
+				break;
+				case 5:
+				if(x==e){
+					go++
+				}else{
+					
+				}
+				break;
+			}
+			switch(go){
+				case 0:
+				document.getElementById('t'+g).style.background-color = 'grey';
+				break;
+				case 1:
+				document.getElementById('t'+g).style.background-color = 'yellow';
+				break;
+				case 2:
+				document.getElementById('t'+g).style.background-color = 'red';
+				break;
+			
+			
+			}
+		}
+		
+		document.getElementById('t'+z).style.display = inline;
+		z++;
+		document.getElementById('t'+z).style.display = inline;
+		z++;
+		document.getElementById('t'+z).style.display = inline;
+		z++;
+		document.getElementById('t'+z).style.display = inline;
+		z++;
+		document.getElementById('t'+z).style.display = inline;
+		z++;
+		g +=5;
+	j=0;
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 var words = [
 	"appel",
 	"aldus",

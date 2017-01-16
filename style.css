@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+textarea{
+	width:80px;
+	height: 50px;
+	display:none;
+	padding:50px;
+	font-size:36px;
+}
+body{
+	background-image: url("untitled.png");
+	background-size:cover;
+}
+#t1{
+	background-color:red;
+	display: inline;
+}
+#t2{
+	display: inline;
+}
+#t3{
+	display: inline;
+}
+#t4{
+	display: inline;
+}
+#t5{
+	display: inline;
+}
+#t6{
+	background-color:red;
+}
+#t11{
+	background-color:red;
+}
+#t16{
+	background-color:red;
+}
+#t21{
+	background-color:red;
+}
